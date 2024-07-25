@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pooja19S_django_blog_1721911003542-push-trigger-input-set
+  identifier: Build_Pooja19S_django_blog_1721911003542pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Pooja19S_django_blog_1721911003542
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
