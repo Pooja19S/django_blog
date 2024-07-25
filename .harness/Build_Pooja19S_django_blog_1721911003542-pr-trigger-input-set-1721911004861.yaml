@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pooja19S_django_blog_1721911003542-pr-trigger-input-set
+  identifier: Build_Pooja19S_django_blog_1721911003542prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Pooja19S_django_blog_1721911003542
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
